@@ -1,0 +1,29 @@
+nav{
+    color: white;
+    padding-inline: 0.75rem;
+    padding-top: 0.5rem;
+    background-color: rgba(39, 31, 31, 0.593);
+    backdrop-filter: blur(2px);
+
+    display: flex;
+    justify-content: space-between;
+    
+    .left ,.right{
+        display: flex;
+        gap: 1rem;
+    }
+}
+.apple-icon{
+    img{
+        width: 16px;
+        height: 16px;
+    }
+}
+.nav-icon{
+     img{
+        width: 16px;
+        height: 16px;
+          filter: invert(1); // white
+
+    }
+}

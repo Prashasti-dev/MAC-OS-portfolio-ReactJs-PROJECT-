@@ -1,11 +1,14 @@
 import React from 'react'
 import Dock from './components/Dock'
+import Nav from './components/Nav'
 import "./app.scss"
+
 const App = () => {
   return (
     <div>
       <main>
-        <Dock></Dock>
+        <Nav/>
+        <Dock/>
       </main>
     </div>
   )
