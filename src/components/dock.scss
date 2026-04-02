@@ -1,0 +1,65 @@
+.dock {
+  display: flex;
+  gap: 12px;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 14px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition: 0.2s;
+
+  img {
+    width: 32px;
+    height: 32px;
+  }
+
+  &:hover {
+    transform: scale(1.4) translateY(-30%)
+  }
+// cobinators
+//hovered icon ka immediagte negihbour
+  &:hover+.icon{
+    transform: scale(1.2)translateY(-15%);
+  }
+  //second neighbor
+
+  &:has(+.icon:hover){
+    transform: scale(1.05)translateY(-5%);
+
+  }
+}
+
+/* 🎨 Different colors */
+.github {background: linear-gradient(135deg, white
+  , #000000);}
+.notes {
+  background: linear-gradient(135deg, #fceabb, #f8b500);
+}
+.gmail {
+  background: linear-gradient(135deg, #ff6a6a, #ea4335);
+}
+.spotify {
+  background: linear-gradient(135deg, #1ed760, #1db954);
+}
+.pdf {
+  background: linear-gradient(135deg, #ff7e7e, #ff0000);
+}
+.link {
+  background: linear-gradient(135deg, #4facfe, #00c6ff);
+}
+.calendar {
+  background: linear-gradient(135deg, #5f9cff, #007aff);
+}
+.cli {background: linear-gradient(135deg, white
+  , #000000);}
