@@ -1,13 +1,12 @@
 .windows {
-  height: 500px;
-  width: 500px;
-
-  // ✅ solid background (no transparency)
+  
+  
+  // ✅  solid background (no transparency)
   background: #1e1e1e;
 
   border-radius: 12px;
   overflow: hidden;
-
+height: 100%;
   color: rgb(220, 220, 220);
 
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
@@ -46,15 +45,13 @@
         // subtle depth
         box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
       }
-
+      
       .red {
         background: #ff5f57;
       }
-
       .yellow {
         background: #ffbd2e;
       }
-
       .green {
         background: #28c840;
       }
