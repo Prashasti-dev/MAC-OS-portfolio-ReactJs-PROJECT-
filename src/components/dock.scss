@@ -28,9 +28,9 @@
     transform: scale(1.4) translateY(-30%)
   }
 // cobinators
-//hovered icon ka immediagte negihbour
+//hovered icon ka immediate neighbour
   &:hover+.icon{
-    transform: scale(1.2)translateY(-15%);
+    transform: scale(1.0)translateY(-10%);
   }
   //second neighbor
 
