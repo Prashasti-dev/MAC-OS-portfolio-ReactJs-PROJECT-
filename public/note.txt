@@ -1,0 +1,122 @@
+/*
+===========================================
+        👩‍💻 DEVELOPER PROFILE
+===========================================
+
+Name: Prashasti Jaiswal
+Role: Aspiring Full Stack Developer
+
+
+===========================================
+*/
+
+class DeveloperProfile {
+
+  // 🚀 Basic Info
+  name = "Prashasti Jaiswal";
+  role = "Aspiring Full Stack Developer";
+
+  /*
+  ===========================================
+            🛠️ TECH STACK & SKILLS
+  ===========================================
+
+  Languages: Programming languages I use
+  Frontend: UI development technologies
+  Backend: Server-side / logic handling
+  Tools: Development & debugging tools
+  */
+  techStack = {
+    languages: ["Java", "C", "C++", "JavaScript"],
+    frontend: ["HTML", "CSS", "React"],
+    backend: ["Core Java (Basics)", "Learning REST APIs"],
+    tools: ["Git", "GitHub", "VS Code", "Postman"]
+  };
+
+  /*
+  ===========================================
+          💼 EXPERIENCE (Latest First)
+  ===========================================
+  */
+  experience = [
+
+    {
+      // 🔥 Most recent work
+      role: "Frontend Developer (Project Work)",
+      duration: "2025 - Present",
+      details: [
+        "Building a Food Ordering Web App using React",
+        "Implemented filters, login system, and API integration",
+        "Focused on UI/UX and performance improvements"
+      ]
+    },
+
+    {
+      role: "Java Developer (Academic Project)",
+      duration: "2024 - 2025",
+      details: [
+        "Developed ATM Management System using Java Swing",
+        "Implemented login, deposit, withdrawal features",
+        "Strengthened Object-Oriented Programming concepts"
+      ]
+    },
+
+    {
+      role: "Web Development Learner",
+      duration: "2024",
+      details: [
+        "Learned HTML, CSS, and JavaScript basics",
+        "Built an Online Book Store frontend project",
+        "Understood responsive design fundamentals"
+      ]
+    }
+  ];
+
+  /*
+  ===========================================
+            🏆 KEY ACHIEVEMENTS
+  ===========================================
+  */
+  keyAchievements = [
+    "Built multiple projects across Java and Web domains",
+    "Strong foundation in programming and problem-solving",
+    "Consistent learner with continuous improvement mindset"
+  ];
+
+  /*
+  ===========================================
+        🧠 COMPETITIVE ACHIEVEMENTS
+  ===========================================
+  */
+  competitiveAchievements = [
+    "Practicing DSA regularly on LeetCode",
+    "Participated in college-level hackathons",
+    "Exploring coding platforms like CodeChef & Codeforces"
+  ];
+
+  /*
+  ===========================================
+            📢 INTRODUCTION FUNCTION
+  ===========================================
+  */
+  introduce() {
+    console.log(`
+Hi, I'm ${this.name} 👋
+
+I am an ${this.role} passionate about building real-world applications 
+and continuously improving my development skills.
+
+💡 I enjoy:
+- Solving problems
+- Learning new technologies
+- Building impactful projects
+
+🚀 Current Focus:
+DSA + Full Stack Development
+    `);
+  }
+}
+
+// Create object & introduce
+const dev = new DeveloperProfile();
+dev.introduce();

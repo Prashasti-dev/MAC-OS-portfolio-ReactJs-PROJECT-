@@ -5,6 +5,8 @@ import Nav from './components/Nav'
 import "./app.scss"
 import MacWindows from './components/Windows/MacWindows'
 import Github from './components/Windows/Github'
+import Note from './components/Windows/Note'
+import Resume_pdf from './components/Windows/Resume_pdf'
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
         <Nav/>
         <Dock/>
        <Github/>
+       <Note/>
+       <Resume_pdf/>
       </main>
     </div>
   )
