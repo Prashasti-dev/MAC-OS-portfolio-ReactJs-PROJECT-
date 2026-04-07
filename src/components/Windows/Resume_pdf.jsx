@@ -6,7 +6,7 @@ const Resume_pdf = () => {
   return (
     <MacWindows>
       <div className="resume-window">
-         <iframe src="./resume.pdf" frameborder="0"></iframe>
+         <embed src="/resume.pdf" frameborder="0"></embed>
       </div>
     </MacWindows>
   );

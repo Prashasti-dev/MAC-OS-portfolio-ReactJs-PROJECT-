@@ -14,7 +14,7 @@ const MacWindows = ({children}) => {
     x:300,
     y:200
    }
-   }>
+   } >
     
    <div className='windows'> 
      <div className="nav-content">
