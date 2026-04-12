@@ -1,0 +1,77 @@
+.cli-window {
+  height: 100%;
+  overflow: hidden; /* ✅ no double scrollbar */
+  padding: 1rem;
+  padding-bottom: 20rem;
+  background: linear-gradient(135deg, #0f0f0f, #111827, #0b1320);
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 255, 150, 0.15);
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* Terminal body */
+div[name="react-console-emulator"] {
+  flex: 1;          /* IMPORTANT */
+  min-height: 0;    /* FIX scroll bug */
+  overflow-y: auto; /* ONLY ONE SCROLL */
+  overflow-x: hidden;
+
+  background: transparent !important;
+  font-family: "Fira Code", monospace;
+  color: #e5e7eb;
+  padding: 10px;
+}
+
+/* Prompt */
+.react-console-emulator__prompt {
+  color: #00ff88;
+  font-weight: bold;
+  text-shadow: 0 0 8px #00ff88;
+}
+
+/* Input */
+.react-console-emulator__input {
+  color: #60a5fa;
+}
+
+/* Output */
+.react-console-emulator__output {
+  color: #cbd5e1;
+  line-height: 1.5;
+}
+
+/* 💚 BIG GREEN SCROLLBAR */
+div[name="react-console-emulator"]::-webkit-scrollbar {
+  width: 10px;
+}
+
+div[name="react-console-emulator"]::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+div[name="react-console-emulator"]::-webkit-scrollbar-thumb {
+  background: #00ff88;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ff88;
+}
+
+div[name="react-console-emulator"]::-webkit-scrollbar-thumb:hover {
+  background: #00ffaa;
+}.terminal-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+/* ONLY FIX TERMINAL INSIDE WRAPPER */
+.terminal-wrapper div[name="react-console-emulator"] {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+
+  background: transparent !important;
+  font-family: "Fira Code", monospace;
+  color: #e5e7eb;
+}
