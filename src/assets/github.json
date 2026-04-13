@@ -1,40 +1,41 @@
 [
-    {
-    "id": 1,
-    "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b",
-    "title": "Productivity Dashboard",
-    "description": "A simple task manager with add, delete, and mark-as-complete features.",
-    "tags": ["JavaScript", "HTML", "CSS"],
-    "repolink": "https://github.com/Prashasti-dev/todo-app",
-    "demolink": ""
-  },
+    
   {
-    "id": 2,
+    "id": 1,
     "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
     "title": "MacOS Style Portfolio",
     "description": "A macOS-inspired portfolio UI showcasing projects and skills with modern design.",
     "tags": ["React", "SCSS", "UI"],
-    "repolink": "https://github.com/Prashasti-dev/macos-portfolio",
-    "demolink": ""
+    "repolink": "https://github.com/Prashasti-dev/MAC-OS-portfolio-ReactJs-PROJECT-",
+    "demolink": "https://macverse-portfolio.vercel.app/"
   },
  
   {
-    "id": 3,
+    "id": 2,
     "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
     "title": "Food Ordering Website",
     "description": "A React-based food ordering application with filtering, API integration, and authentication.",
     "tags": ["React", "CSS", "API"],
-    "repolink": "https://github.com/Prashasti-dev/food-ordering-app",
+    "repolink": "https://github.com/Prashasti-dev/food-ordering-website",
+    "demolink": "https://foodifi.vercel.app/"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b",
+    "title": "Productivity Dashboard",
+    "description": "A simple task manager with add, delete, and mark-as-complete features.",
+    "tags": ["JavaScript", "HTML", "CSS"],
+    "repolink": "https://github.com/Prashasti-dev/Productivity-DashBoard",
     "demolink": ""
   },
    {
     "id": 4,
-    "image": "https://images.unsplash.com/photo-1601597111158-2fceff292cdc",
-    "title": "ATM Management System",
-    "description": "A Java Swing-based ATM simulation with login, deposit, withdraw, and balance check features.",
-    "tags": ["Java", "Swing", "GUI"],
-    "repolink": "https://github.com/Prashasti-dev/atm-management-system",
-    "demolink": ""
+    "image": "https://plus.unsplash.com/premium_photo-1679741218562-c293437ccf39?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3BvdGxpZ2h0fGVufDB8fDB8fHww",
+    "title": " Spotlight Effect",
+    "description": "Cursor Spotlight Effect ✨ This project creates an interactive spotlight effect.",
+    "tags": ["HTML","CSS"],
+    "repolink": "https://github.com/Prashasti-dev/Spotlight-Effect",
+    "demolink": "https://prashasti-dev.github.io/Spotlight-Effect/"
   }
   
 ]

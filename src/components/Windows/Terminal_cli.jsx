@@ -5,7 +5,7 @@ import "./cli.scss";
 
 const Terminal = TerminalLib.default || TerminalLib;
 
-const Terminal_cli = () => {
+const Terminal_cli = ({windowName, windowState, setWindowState}) => {
 
   const commands = {
     help: {
@@ -96,7 +96,7 @@ const Terminal_cli = () => {
   };
 
 return (
-  <MacWindows>
+  <MacWindows windowName={windowName} windowState={windowState} setWindowState={setWindowState} width="40vw">
     <div className="cli-window">
       <div className="terminal-wrapper">
         <Terminal

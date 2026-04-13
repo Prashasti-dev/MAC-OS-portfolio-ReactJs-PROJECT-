@@ -63,3 +63,28 @@
 }
 .cli {background: linear-gradient(135deg, white
   , #000000);}
+
+  .icon {
+  position: relative;
+}
+
+.icon::after {
+  content: attr(title);
+  position: absolute;
+  bottom: 65px;
+  left: 50%;
+  transform: translateX(-50%) scale(0.8);
+  background: rgba(0,0,0,0.85);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  opacity: 0;
+  transition: 0.2s ease;
+  white-space: nowrap;
+}
+
+.icon:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+}

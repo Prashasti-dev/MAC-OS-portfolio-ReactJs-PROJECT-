@@ -31,9 +31,9 @@ return <div className="card">
 </div>
 }
 
-const Github = () => {
+const Github = ({windowName, windowState, setWindowState}) => {
   return (
-    <MacWindows>
+    <MacWindows windowName={windowName} windowState={windowState} setWindowState={setWindowState}>
             <div className="cards">
                 {githubData.map(project=>{
                     return <GitCard data={project}/>
